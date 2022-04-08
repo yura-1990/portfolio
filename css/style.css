@@ -96,3 +96,174 @@ body {
   background: #000;
   color: white;
 }
+
+/* tolqin start */
+
+.tolqin {
+  height: 617px;
+}
+
+.tolqin__block{
+  position: relative;
+  
+}
+
+.webdesign {
+  display: flex;
+  gap: 38px;
+  /* margin-left: 150px; */
+}
+
+.tolqin__content {
+  display: flex;
+  gap: 500px;
+}
+
+.tolqin__h1 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #B16CEA;
+  margin-bottom: 20px;
+  margin-top: 76px;
+  cursor: pointer;
+}
+
+.tolqin__bring {
+  font-size: 54px;
+  line-height: 59px;
+  color: #000;
+}
+
+.tolqin__btn {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  width: 201px;
+  height: 58px;
+  background: #000;
+  border: none;
+  margin-top: 132px;
+  cursor: pointer;
+}
+
+.tolqin__btn:hover {
+  color: #000;
+  background: white;
+  transition: 0.3s linear;
+}
+
+.tolqin__img {
+  display: flex;
+  margin-top: 70px;
+  gap: 24px;
+  position: absolute;
+  left: 0;
+}
+
+.tolqin__img>img{
+  min-width: max-content;
+}
+.tolqin__branding {
+  margin-left: -12px;
+  width: 820px;
+  height: 163px;
+  background: white;
+}
+.tolqin__branding1 {
+  width: 520px;
+  height: 163px;
+  margin-right: -100px;
+  background: white;
+  
+}
+.branding {
+  font-size: 14px;
+  color: #3C46FF;
+  margin-top: 33px;
+  margin-left: 32px;
+  margin-bottom: 17px;
+}
+.soulful {
+  font-size: 24px;
+  color: #000;
+  margin-left: 32px;
+  margin-bottom: 19px;
+}
+.view {
+  font-size: 18px;
+  color: #000;
+  margin-left: 32px;
+}
+.blogs {
+  background: #000;
+  height: 1838px;
+}
+
+.button {
+  display: flex;
+  margin-left: 1113px;
+  margin-right: 112px;
+  margin-top: 26px;
+  gap: 7px;
+}
+.tolqin__button {
+  width: 54px;
+  height: 54px;
+  padding: 19px 20px;
+  cursor: pointer;
+}
+
+.blogs__content {
+  display: flex;
+  margin-right: 190px;
+}
+
+.wiew__blog {
+  font-size: 22px;
+  line-height: 22px;
+  color: #FFA84B;
+  margin-bottom: 20px;
+}
+
+.wiew__h1 {
+  color: white;
+  font-size: 54px;
+  line-height: 59px;
+  margin-bottom: 32px;
+}
+.wiew__h3 {
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.rear__h4 {
+  font-size: 15px;
+  line-height: 16px;
+  margin-top: 61px;
+  margin-bottom: 26px;
+  margin-left: 190px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.rear__h1 {
+  width: 489px;
+  height: 72px;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+  margin-left: 190px;
+  margin-bottom: 39px;
+}
+.rear__h2 {
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 190px;
+  margin-bottom: 35px;
+}
+.rear__btn {
+  width: 692px;
+  height: 1px;
+  border: none;
+  margin-left: 190px;
+}
