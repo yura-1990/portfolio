@@ -96,3 +96,76 @@ body {
   background: #000;
   color: white;
 }
+.asadbek {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.asadbek__title{
+  font-size: 18px;
+  font-weight: 400;
+ line-height: 18px;
+  margin-bottom: 40px;
+  color: #000;
+}
+.asadbek__logos-content{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ gap: 100px;
+}
+.asadbek__title-services {
+  color: #FF5E69;
+   font-size: 22px;
+   line-height: 22px;
+   margin-top: 150px;
+   margin-bottom: 20px;
+   letter-spacing: 4px;
+}
+.asadbek__title-design
+{
+  width: 768px;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+}
+
+.asadbek__card {
+  position: relative;
+  top: 117px;
+ display: grid;
+ grid-template-columns: repeat(3 , 1fr );
+ grid-template-rows: minmax(381px , max-content);
+ gap: 100px;
+}
+/* .asadbek__item  {
+  
+} */
+.asadbek__item-title{
+  font-size: 24px;
+  line-height: 26px;
+  color: #000;
+  margin-top: 39px;
+  margin-bottom: 25px;
+}
+.asadbek__item-text {
+  color: #666666;
+ font-size: 16px;
+ line-height: 28px;
+ margin-bottom: 21px;
+ width: 256px;
+}
+.asadbek__item h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.asadbek__item h4>div {
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+}
