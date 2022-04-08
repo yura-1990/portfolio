@@ -69,3 +69,30 @@ body {
 .about__title_color {
   color: #FF8A56;
 }
+
+.about__text {
+  margin-top: 34px;
+  margin-bottom: 38px;
+  width: 548px;
+  font-family: "Roboto";
+  line-height: 150%;
+  color: #666666;
+}
+
+.about__btn {
+  display: flex;
+  gap: 40px;
+}
+
+.btn {
+  padding: 17px 30px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #000;
+  color: white;
+}
