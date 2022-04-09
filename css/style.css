@@ -111,7 +111,6 @@ body {
 .webdesign {
   display: flex;
   gap: 38px;
-  /* margin-left: 150px; */
 }
 
 .tolqin__content {
@@ -163,19 +162,21 @@ body {
 .tolqin__img>img{
   min-width: max-content;
 }
+
 .tolqin__branding {
   margin-left: -12px;
   width: 820px;
   height: 163px;
   background: white;
 }
+
 .tolqin__branding1 {
   width: 520px;
   height: 163px;
   margin-right: -100px;
   background: white;
-  
 }
+
 .branding {
   font-size: 14px;
   color: #3C46FF;
@@ -183,17 +184,20 @@ body {
   margin-left: 32px;
   margin-bottom: 17px;
 }
+
 .soulful {
   font-size: 24px;
   color: #000;
   margin-left: 32px;
   margin-bottom: 19px;
 }
+
 .view {
   font-size: 18px;
   color: #000;
   margin-left: 32px;
 }
+
 .blogs {
   background: #000;
   height: 1838px;
@@ -206,6 +210,7 @@ body {
   margin-top: 26px;
   gap: 7px;
 }
+
 .tolqin__button {
   width: 54px;
   height: 54px;
@@ -231,6 +236,7 @@ body {
   line-height: 59px;
   margin-bottom: 32px;
 }
+
 .wiew__h3 {
   color: white;
   font-size: 18px;
@@ -245,6 +251,7 @@ body {
   margin-left: 190px;
   color: rgba(255, 255, 255, 0.7);
 }
+
 .rear__h1 {
   width: 489px;
   height: 72px;
@@ -254,6 +261,7 @@ body {
   margin-left: 190px;
   margin-bottom: 39px;
 }
+
 .rear__h2 {
   color: white;
   font-size: 18px;
@@ -261,9 +269,85 @@ body {
   margin-left: 190px;
   margin-bottom: 35px;
 }
+
 .rear__btn {
   width: 692px;
   height: 1px;
   border: none;
   margin-left: 190px;
+}
+/* tolqin footer start */
+
+.footer {
+  height: 719px;
+  background: #000;
+}
+
+.tolqin__title {
+  color: white;
+  font-size: 54px;
+  line-height: 59px;
+  margin-bottom: 9px;
+}
+
+.tolqin__h2 {
+  color: #3C46FF;
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.tolqin__contect {
+  width: 1215px;
+  height: 146px;
+  margin-top: 98px;
+  display: flex;
+}
+
+
+.creator__div {
+  display: flex;
+}
+
+.creator__h3 {
+  width: 325px; 
+  height: 28px; 
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.div__h3 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  margin-left: 6px;
+}
+
+.footer__title {
+ display: flex;
+ margin-left: 404px;
+ gap: 123px;
+}
+
+.footer__li {
+  margin-bottom: 40px;
+}
+.footer__link {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+ text-decoration: none;
+}
+.reserved {
+  margin-top: 300px;
+  display: flex;
+  gap: 8px;
+}
+
+.reserved__h4 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8A95AD;
 }
