@@ -98,6 +98,91 @@ body {
   color: white;
 
 }
+.sunnatbek__content{
+  /* max-width: 1440px; */
+  height: 873px;
+}
+.sunnatbek__title{
+  font-family: 'Roboto';
+  font-size: 22px;
+line-height: 22px;
+margin-top: 76px;
+text-decoration: none;
+margin-bottom: 20px;
+color: #4353FF;
+
+}
+.sunnatbek__title2{
+  font-family: 'Roboto';
+  font-size: 54px;
+line-height: 59px;
+color: #000000;
+margin-bottom: 85px;
+}
+.text{
+  width: 565px;
+  height: 188px;
+  font-size: 36px;
+line-height: 47px;
+font-family: 'Roboto';
+
+}
+.sunnat {
+  height: 873px;
+}
+
+.sunnat__h3 {
+  font-size: 22px;
+  line-height: 22px;
+  margin-top: 76px;
+  margin-bottom: 20px;
+  color: #4353FF;
+}
+
+.sunnat__h1 {
+  font-size: 54px;
+  line-height: 59px;
+  color: #000;
+  margin-bottom: 85px;
+}
+.frankin {
+  display: flex;
+}
+.jade {
+  display: block;
+  margin-left: 146px;
+  margin-top: 30px;
+}
+.jade__text {
+  width: 565px;
+  height: 188px;
+  font-size: 36px;
+  line-height: 47px;
+  color: #000000;
+  margin-top: 32px;
+}
+.john {
+  display: flex;
+  margin-top: 109px;
+}
+.bunch__h1 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.bunch__h2 {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  margin-right: 285px;
+}
+
+
+.sunnat__button {
+
+}
 
 /* tolqin start */
 
@@ -214,10 +299,19 @@ body {
 }
 
 .tolqin__button {
+
   width: 54px;
   height: 54px;
   padding: 19px 20px;
   cursor: pointer;
+
+  border: none;
+  margin-right: -5px;
+}
+
+
+
+
 }
 
 .blogs__content {
@@ -530,4 +624,5 @@ em {
   background-color: #000;
 
 }
+
 
