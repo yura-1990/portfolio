@@ -8,6 +8,7 @@
 
 body {
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -63,7 +64,7 @@ body {
 .about__title {
   font-size: 72px;
   line-height: 115%;
-
+  
 }
 
 .about__title_color {
@@ -95,6 +96,7 @@ body {
 .btn:hover {
   background: #000;
   color: white;
+
 }
 .sunnatbek__content{
   /* max-width: 1440px; */
@@ -179,14 +181,448 @@ font-family: 'Roboto';
 
 
 .sunnat__button {
+
+}
+
+/* tolqin start */
+
+.tolqin {
+  height: 617px;
+}
+
+.tolqin__block{
+  position: relative;
+  
+}
+
+.webdesign {
+  display: flex;
+  gap: 38px;
+}
+
+.tolqin__content {
+  display: flex;
+  gap: 500px;
+}
+
+.tolqin__h1 {
+  font-size: 22px;
+  line-height: 22px;
+  color: #B16CEA;
+  margin-bottom: 20px;
+  margin-top: 76px;
+  cursor: pointer;
+}
+
+.tolqin__bring {
+  font-size: 54px;
+  line-height: 59px;
+  color: #000;
+}
+
+.tolqin__btn {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  width: 201px;
+  height: 58px;
+  background: #000;
+  border: none;
+  margin-top: 132px;
+  cursor: pointer;
+}
+
+.tolqin__btn:hover {
+  color: #000;
+  background: white;
+  transition: 0.3s linear;
+}
+
+.tolqin__img {
+  display: flex;
+  margin-top: 70px;
+  gap: 24px;
+  position: absolute;
+  left: 0;
+}
+
+.tolqin__img>img{
+  min-width: max-content;
+}
+
+.tolqin__branding {
+  margin-left: -12px;
+  width: 820px;
+  height: 163px;
+  background: white;
+}
+
+.tolqin__branding1 {
+  width: 520px;
+  height: 163px;
+  margin-right: -100px;
+  background: white;
+}
+
+.branding {
+  font-size: 14px;
+  color: #3C46FF;
+  margin-top: 33px;
+  margin-left: 32px;
+  margin-bottom: 17px;
+}
+
+.soulful {
+  font-size: 24px;
+  color: #000;
+  margin-left: 32px;
+  margin-bottom: 19px;
+}
+
+.view {
+  font-size: 18px;
+  color: #000;
+  margin-left: 32px;
+}
+
+.blogs {
+  background: #000;
+  height: 1838px;
+}
+
+.button {
+  display: flex;
+  margin-left: 1113px;
+  margin-right: 112px;
+  margin-top: 26px;
+  gap: 7px;
+}
+
+.tolqin__button {
+
   width: 54px;
   height: 54px;
   padding: 19px 20px;
   cursor: pointer;
+
   border: none;
   margin-right: -5px;
 }
 
 
+
+
+}
+
+.blogs__content {
+  display: flex;
+  margin-right: 190px;
+}
+
+.wiew__blog {
+  font-size: 22px;
+  line-height: 22px;
+  color: #FFA84B;
+  margin-bottom: 20px;
+}
+
+.wiew__h1 {
+  color: white;
+  font-size: 54px;
+  line-height: 59px;
+  margin-bottom: 32px;
+}
+
+.wiew__h3 {
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.rear__h4 {
+  font-size: 15px;
+  line-height: 16px;
+  margin-top: 61px;
+  margin-bottom: 26px;
+  margin-left: 190px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.rear__h1 {
+  width: 489px;
+  height: 72px;
+  font-size: 28px;
+  line-height: 36px;
+  color: white;
+  margin-left: 190px;
+  margin-bottom: 39px;
+}
+
+.rear__h2 {
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 190px;
+  margin-bottom: 35px;
+}
+
+.rear__btn {
+  width: 692px;
+  height: 1px;
+  border: none;
+  margin-left: 190px;
+}
+/* tolqin footer start */
+
+.footer {
+  height: 719px;
+  background: #000;
+}
+
+.tolqin__title {
+  color: white;
+  font-size: 54px;
+  line-height: 59px;
+  margin-bottom: 9px;
+}
+
+.tolqin__h2 {
+  color: #3C46FF;
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.tolqin__contect {
+  width: 1215px;
+  height: 146px;
+  margin-top: 98px;
+  display: flex;
+}
+
+
+.creator__div {
+  display: flex;
+}
+
+.creator__h3 {
+  width: 325px; 
+  height: 28px; 
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+.div__h3 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  margin-left: 6px;
+}
+
+.footer__title {
+ display: flex;
+ margin-left: 404px;
+ gap: 123px;
+}
+
+.footer__li {
+  margin-bottom: 40px;
+}
+.footer__link {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+ text-decoration: none;
+}
+.reserved {
+  margin-top: 300px;
+  display: flex;
+  gap: 8px;
+}
+
+.reserved__h4 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8A95AD;
+}
+
+  transition: 0.3s linear;
+}
+
+
+
+
+.bekzod__content {
+  display: flex;
+  gap: 60px;
+  height: 663px;
+}
+em {
+  content: url(../img/edu-icon.png);
+}
+.begzod__left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.begzod__left__item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.begzod__left__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.left__hr {
+  background: #E5E5E5;
+  width: 583px;
+  height: 2px;
+}
+.begzod__left__tittle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+.begzod__left__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+  
+}
+.left__time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* right================= */
+
+.right__hr {
+  width: 583px;
+  height: 2px;
+  margin-left: 80px;
+}
+.begzod__right {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.begzod__rigth__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.begzod__right__item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.begzod__right__tittle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+.begzod__rigth__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.left__time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+.asadbek {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.asadbek__title{
+  font-size: 18px;
+  font-weight: 400;
+ line-height: 18px;
+  margin-bottom: 40px;
+  color: #000;
+}
+.asadbek__logos-content{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+ gap: 100px;
+}
+.asadbek__title-services {
+  color: #FF5E69;
+   font-size: 22px;
+   line-height: 22px;
+   margin-top: 150px;
+   margin-bottom: 20px;
+   letter-spacing: 4px;
+}
+.asadbek__title-design
+{
+  width: 768px;
+  font-size: 54px;
+  line-height: 59px;
+  text-align: center;
+}
+
+.asadbek__card {
+  position: relative;
+  top: 117px;
+ display: grid;
+ grid-template-columns: repeat(3 , 1fr );
+ grid-template-rows: minmax(381px , max-content);
+ gap: 100px;
+}
+/* .asadbek__item  {
+  
+} */
+.asadbek__item-title{
+  font-size: 24px;
+  line-height: 26px;
+  color: #000;
+  margin-top: 39px;
+  margin-bottom: 25px;
+}
+.asadbek__item-text {
+  color: #666666;
+ font-size: 16px;
+ line-height: 28px;
+ margin-bottom: 21px;
+ width: 256px;
+}
+.asadbek__item h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.asadbek__item h4>div {
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+
+}
 
 
