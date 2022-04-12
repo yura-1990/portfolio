@@ -8,6 +8,7 @@
 
 body {
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -63,7 +64,7 @@ body {
 .about__title {
   font-size: 72px;
   line-height: 115%;
-
+  
 }
 
 .about__title_color {
@@ -95,6 +96,108 @@ body {
 .btn:hover {
   background: #000;
   color: white;
+
+  transition: 0.3s linear;
+}
+
+
+
+
+.bekzod__content {
+  display: flex;
+  gap: 60px;
+  height: 663px;
+}
+em {
+  content: url(../img/edu-icon.png);
+}
+.begzod__left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.begzod__left__item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.begzod__left__text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.left__hr {
+  background: #E5E5E5;
+  width: 583px;
+  height: 2px;
+}
+.begzod__left__tittle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+.begzod__left__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+  
+}
+.left__time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* right================= */
+
+.right__hr {
+  width: 583px;
+  height: 2px;
+  margin-left: 80px;
+}
+.begzod__right {
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.begzod__rigth__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.begzod__right__item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.begzod__right__tittle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #000000;
+}
+.begzod__rigth__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.left__time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+
 }
 .asadbek {
   display: flex;
@@ -168,4 +271,5 @@ body {
   width: 7px;
   height: 7px;
   background-color: #000;
+
 }
